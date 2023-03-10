@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+
+.btn-menu{
+    border: none;
+    background: #FFFFFF;
+    color-scheme: #FFFFFF;
+}
+
+.cards {
+    width: 100%;
+    margin-top: 50px;
+    
+    background-color: #FFFFFF;
+}
+
+.card-shadow{
+    box-shadow:  2px 2px 2px 2px rgba(39, 39, 39, 0.459);
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+
+.center-card-text{
+    text-align: center;
+}
+
+.main_carrossel {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+
+
+.cabecalho{
+    text-align: center;
+
+}
+
+
+
+.centralizar{
+    margin-top: 110px;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #000548;
+    width: 100%;
+    padding: 90px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+#infor{
+    width: 100%;
+    padding:75px;
+    background-color: #000548;
+    margin-top:100px;
+    color: white;
+    
+}
+.btn{
+    background-color: #f51515;
+}
+   
+.btn:hover{
+    background-color: #df1c1c;
+}
+
+.btn-card{
+    background-color: #f51515;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text-footer{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.text-footer-contat{
+    text-align: center;
+    
+}
+.text-footer-corp{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.barra-vermelha{
+    width: 100%;
+    padding: 65px;
+    background-color: #f51515;
+    margin-top:-57px;
+    color: white;
+}
+
+#secao-azul2{
+    width: 100%;
+    padding: 75px;
+    background-color: #000548;
+    margin-top:110px;
+    color: white;
+}
+
+
+
+.barra-vermelha2{
+    width: 100%;
+    padding: 35px;
+    background-color: #f51515;
+    color: white;
+    align-items: center;
+   
+}
+
+.barra-vermelha-produtos{
+    width: 100%;
+    padding: 35px;
+    background-color: #f51515;
+    color: white;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box{
+    
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+    background-color:#FFFFFF;
+    padding: 15px;
+    border-radius: 15px;
+    width: 36%;
+    margin-top: 70px;
+}
+
+.container{
+  margin-top: 30px;
+}
+table{
+    
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+tbody{
+    width: 40%;
+}
+
+a{
+    color: #FFFFFF;
+ }
+
+ a:visited {
+    color: #FFFFFF;
+ }
