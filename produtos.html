@@ -9,7 +9,8 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <link rel="stylesheet" href="Estilo/style.css">
+  <link rel="stylesheet" href="css/produtos.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Net.Bit-Planos e assinaturas</title>
 
 </head>
@@ -20,7 +21,7 @@
     <div class="container-fluid">
 
       <a class="navbar-brand " href="index.html">
-        <h1 style="color: white;font-family:inherit;font-weight:900;">Net.Bit</h1>
+        <h1 style="color: white;font-family:inherit;font-weight:900;">NetBit</h1>
       </a>
 
 
@@ -31,7 +32,7 @@
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
         aria-labelledby="offcanvasDarkNavbarLabel" style="background-color: #000548;color: white;">
         <div class="offcanvas-header">
-          <h1 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="font-family:inherit;font-weight:900;">Net.Bit
+          <h1 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="font-family:inherit;font-weight:900;">NetBit
           </h1>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
@@ -56,24 +57,37 @@
               </ul>
             </li>
           </ul>
+
           <form class="d-flex mt-3" role="search">
             <input class="form-control me-2" type="search" placeholder="Procurar..." aria-label="Search">
             <button class="btn btn-danger btn infor btn-sm" type="submit"
               style="font-weight: bolder;">Pesquisar</button>
           </form>
+
         </div>
       </div>
     </div>
   </nav>
-  <img src="img/carrossel.jpg" alt="" class="img-head">
-  <div style="text-align: center;margin-top: 50px;">
-    <h1>Assine Agora!</h1>
-    <h5 class="card-subtitle mb-2 text-muted">Contamos com a melhor e mais robusta rede de fibra óptica. Veja a seguir,
-      as vantagens de
-      assinar com a Net.Bit!</h5>
+
+
+  <img src="img/Zz1jYjYzYmIxYTZiMjAxMWViYjlmMjA5ZDkzM2FlNTgxOA==.jpeg" alt="" class="img-head-prod">
+  <div style="text-align: center;">
+
+    <section class="fundo-header">
+
+      <h1>Assine Agora!</h1>
+      <h5 class="card-subtitle mb-2">Contamos com a melhor e mais robusta rede de fibra óptica. Veja a seguir,
+        as vantagens de
+        assinar com a NetBit!</h5>
+
   </div>
 
+  </section>
 
+  <div style="text-align: center;margin-top: 70px;">
+    <h1>Nossos Planos!</h1>
+    <h5 class="card-subtitle mb-2">Escolha a melhor assinatura com um preço que cabe no seu bolso!</h5>
+  </div>
 
   <div class="row row-cols-1 row-cols-md-3 g-4 cards mx-auto">
     <div class="col">
@@ -104,6 +118,7 @@
 
       </div>
     </div>
+
     <div class="col">
       <div class="card h-100 border-0">
         <div class="card-body card-shadow">
@@ -161,10 +176,8 @@
       </div>
     </div>
 
-
-
   </div>
-  <div style="text-align: center;margin-top: 70px;">
+  <div style="text-align: center;margin-top: 50px;">
     <h1>Nossa localização</h1>
   </div>
   <section id="maps">
@@ -172,7 +185,7 @@
 
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15803.56592095675!2d-36.071821092187534!3d-8.010126599999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a9793cfbc2f4cd%3A0x1a8c834b75923057!2sGNET%20PROVEDOR!5e0!3m2!1spt-BR!2sbr!4v1678333287491!5m2!1spt-BR!2sbr"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        width="100%" height="450" style="border:0; margin-top: 30px;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
@@ -183,53 +196,41 @@
     <h1>Entre em contato conosco</h1>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 cards mx-auto">
-    <div class="card h-100 mx-auto col card-shadow" style="border-radius: 20px;">
-      <form action="" method="post">
 
-        <h1 style="text-align: center; margin-top: 20px;">Envie uma mensagem</h1>
+  <div class="formulario">
+    <form onsubmit="event.preventDefault()">
 
-        <div class="mb-3">
-          <label for="nome">Nome</label>
-          <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" required>
+      <label for="input-nome">Nome</label>
+      <input type="text" name="nome" id="nome" placeholder=" Nome" required minlength="2">
 
-        </div>
-        <br>
-        <div class="mb-3">
-          <label for="nome">E-mail</label>
-          <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
 
-        </div>
-        <br>
-        <div class="mb-3">
-          <label for="senha">Telefone</label>
-          <input type="tel" class="form-control" name="senha" id="senha" placeholder="(00) 00000-0000" required>
+      <label for="input-email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="  E-mail" required>
 
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
-        </div>
 
-        <div class="d-grid gap-2 mx-auto">
-          <input class="btn btn-danger btn" type="submit" name="submit" id="submit" value="Enviar"
-            style="font-weight: bolder; border-radius: 30px;"> <br>
-        </div>
+      <label for="input-tel">Telefone</label>
+      <input type="tel" name="tel" id="tel" placeholder=" (00) 00000-0000" required pattern="^\(\d{2}\) \d{5}-\d{4}$"
+        maxlength="15">
 
-        </fieldset>
-      </form>
 
-    </div>
+
+      <label for="input-msg">Mensagem</label>
+      <textarea name="input-msg" id="msg" cols="30" rows="10"></textarea>
+
+
+      <input type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()">
+
+    </form>
   </div>
-
 
 
   <section class="barra-vermelha-produtos">
 
   </section>
+
   <footer>
     <h1 class="text-footer" style="color: white;font-family:inherit;font-weight:900;">
-      Net.Bit
+      NetBit
     </h1>
     <h4 class="text-footer-contat">
       Contate-nos
@@ -248,7 +249,9 @@
         style="font-size: 50px; margin-top: 100px;margin-right: 20px;"></ion-icon></a>
     <h4 class="text-footer-corp">&copy; 2023 DanSystems. Todos os termos de uso e direitos reservados.</h4>
   </footer>
+
 </body>
+<script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
